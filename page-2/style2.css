@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  
+  *::selection {
+    background-color: #bbbaba;
+}
+
+  body {
+      background-color: white;
+  }
+  
+  .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #353535;
+      position:fixed;
+      padding-right: 20px;
+      width: 100%;
+      top: 0;
+      z-index: 999;
+  
+  }
+  
+  .parent-item {
+      display: flex;
+      gap: 35px;
+      padding: 20px;
+  }
+  
+  .parent-item a {
+      text-decoration:none;
+      color: rgb(221, 221, 221);
+      font-size: 20px;
+  }
+  
+  .parent-item a:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #parent-child-2 button:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .parent-item-2 input[type="search"] {
+    border: 2px solid #C1CFA1;
+border-radius: 20px;
+padding: 5px;
+background-color: #cccccc;
+}
+
+.parent-item-2 input[type="search"]:hover {
+    transform: scale(1.1);
+}
+
+#section-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+#section-1 #div-1 {
+    margin-top: 300px;
+    position: absolute;
+    width: 80%;
+    height: 70px;
+    background-color: #7f7f7f;
+border-radius: 30px;
+border: solid 3px gray;
+display: flex;
+justify-content:space-around;
+align-items: center;
+
+}
+
+#section-1 button {
+    padding: 8px;
+    border-radius: 20px;
+    border: #C1CFA1;
+    background-color: #cccccc;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#section-1 p {
+    position: absolute;
+    font-size: 17px;
+top: 140px;
+left: 180px;
+z-index: 2;
+}
+
+#section-2 {
+display: flex;
+position: relative;
+}
+
+#div-divnavbar {
+    width: 330px;
+    height: 600px;
+    margin-right: 20px;
+    background-color: #cccccc;
+    z-index: 3;
+    position:fixed;
+    top: 265px;
+    right: 0;
+}
+
+#section-2 #div-2 {
+    width: 950px;
+    height: 10000px;
+    background-color: #7f7f7f;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+margin-top: 250px;
+}
+
+#section-2 #div-2 button{
+    width: 900px;
+    height: 200px;
+border-radius: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+
+}
+
+.div-img-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 20px;
+    width: 230px;
+    height: 100%;
+background-color: rgb(255, 255, 255);
+
+}
+
+.div-img-1 img {
+    width: 100%;
+}
+
+button p {
+    margin-left: 50px;
+}
+
